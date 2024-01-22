@@ -9,7 +9,7 @@ const HtmlTagRemoverApp = () => {
   };
 
   const handleRemoveTags = () => {
-    const withoutTags = inputString.replace(/<\/?[^>]+(>|$)/g, ""); // Use a regular expression to remove HTML tags
+    const withoutTags = inputString.replace(/<\/?[^>]+(>|$)/g, "");
     setOutputString(withoutTags);
   };
 
